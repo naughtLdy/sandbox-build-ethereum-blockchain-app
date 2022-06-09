@@ -13,4 +13,8 @@ contract DataTypes {
   function getStateVariables() public view returns (uint, int, uint8, bool, address, bytes32, string memory) {
     return (x, i, j, isEthereumCool, owner, bMsg, sMsg);
   }
+
+  function setbMsg(bytes32 newValue) private returns (bytes32) {
+    bMsg = newValue;
+  }
 }
