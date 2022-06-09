@@ -1,0 +1,22 @@
+{
+  "name": "sandbox-build-ethereum-blockchain-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "truffle init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naughtLdy/sandbox-build-ethereum-blockchain-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naughtLdy/sandbox-build-ethereum-blockchain-app/issues"
+  },
+  "homepage": "https://github.com/naughtLdy/sandbox-build-ethereum-blockchain-app#readme",
+  "devDependencies": {
+    "truffle": "^5.5.17"
+  }
+}
